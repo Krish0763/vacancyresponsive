@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VISION: Virtual Information System for Institutional Opportunities and Navigation</title>
+    <link rel="icon" type="image/x-icon" href="logo1.png">
+
+    <link rel="stylesheet" href="vacancy.css">
+    <link rel="stylesheet" href="vacancy_responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo-container">
+            <div class="logo-box">
+                <img src="./Assets/SAOS_Logo-removebg-preview - Copy.png" alt="VISION logo">
+            </div>
+            <div class="logo-text">
+                <h1>VISION</h1>
+                <p>Virtual Information System for Institutional Opportunities and Navigation</p>
+            </div>
+        </div>
+        <div class="header-actions">
+            <a href="#" class="login-btn">Login</a>
+            
+        </div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul class="main-menu">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#stateselection">Programs</a></li>
+            <li><a href="#students">Student’s corner</a></li>
+            <li><a href="#">Vacancy</a></li>
+            <li><a href="#helpdesk">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+    <!-- State Selection Section -->
+    <section class="state-selection" id="stateselection">
+        <div class="state">
+            <h3><i class="fas fa-map-marker-alt"></i> Select State</h3>
+
+            <div class="dropdown">
+                <div class="select-wrapper">
+                    <select class="select" id="state-select">
+
+                        <option class="disabled" value="" disabled selected hidden>Select state</option>
+                        <option value="all">ALL STATES</option>
+                        <option value="andhra">Andhra Pradesh</option>
+                        <option value="arunachal">Arunachal Pradesh</option>
+                        <option value="assam">Assam</option>
+                        <option value="bihar">Bihar</option>
+                        <option value="chhattisgarh">Chhattisgarh</option>
+                        <option value="goa">Goa</option>
+                        <option value="gujarat">Gujarat</option>
+                        <option value="all">All India</option>
+                        <option value="andhra">Andhra Pradesh</option>
+                        <option value="arunachal">Arunachal Pradesh</option>
+                        <option value="assam">Assam</option>
+                        <option value="bihar">Bihar</option>
+                        <option value="chhattisgarh">Chhattisgarh</option>
+                        <option value="goa">Goa</option>
+                        <option value="gujarat">Gujarat</option>
+                    </select>
+
+                    <span id="clear-state" class="clear-selection"><i class="fa-solid fa-xmark"></i></span>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- city -->
+        <div class="city">
+            <h3><i class="fas fa-map-marker-alt"></i> Select City</h3>
+            <div class="dropdown">
+                <div class="select-wrapper">
+                    <select class="select" id="city-select">
+                        <option class="disabled" value="" disabled selected hidden>Select City</option>
+                        <option value="all">ALL CITIES</option>
+                        <option value="andhra">Surat</option>
+                        <option value="arunachal">Mumbai</option>
+                        <option value="assam">Gandhinagar</option>
+                    </select>
+                    <span id="clear-city" class="clear-selection"><i class="fa-solid fa-xmark"></i></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- University -->
+        <div class="university">
+            <h3><i class="fas fa-map-marker-alt"></i> Select University </h3>
+            <div class="dropdown">
+                <div class="select-wrapper">
+                    <select class="select" id="university-select">
+                        <option class="disabled" value="" disabled selected hidden>Select University</option>
+                        <option value="all">ALL UNIVERSITY</option>
+                        <option value="andhra">Sarvajanik University</option>
+                        <option value="arunachal">Bhagwan Mahavir University</option>
+                        <option value="assam">Veer Narmad South Gujarat University</option>
+                    </select>
+                    <span id="clear-university" class="clear-selection"><i class="fa-solid fa-xmark"></i></span>
+                </div>
+            </div>
+        </div>
+
+        <button class="find-btn"><a href="#vacanytable" style="color: white;">Find Information</a></button>
+    </section>
+
+    <!-- table -->
+    <div class="container" id="vacanytable">
+        <h2 style="text-align: center;" class="Vacancy-title">VACANCY AVAILABLE FOR GIVEN POSITIONS</h2>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>College</th>
+                        <th>Post</th>
+                        <th>Duration</th>
+                        <th>Apply Now</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="hover-effect">
+                        <td>1</td>
+                        <td>SCCCA</td>
+                        <td>Clerk</td>
+                        <td>2 Years</td>
+                        <td><a href="#">Apply</a></td>
+                    </tr>
+                    <tr class="hover-effect">
+                        <td>2</td>
+                        <td>SCOPA</td>
+                        <td>Assistant Professor</td>
+                        <td></td>
+                        <td><a href="#">Apply</a></td>
+                    </tr>
+                    <tr class="hover-effect">
+                        <td>3</td>
+                        <td>SCET</td>
+                        <td>Lab Assistant</td>
+                        <td>4 Years</td>
+                        <td><a href="#">Apply</a></td>
+                    </tr>
+                    <tr class="hover-effect">
+                        <td>4</td>
+                        <td>MTB</td>
+                        <td>Peon</td>
+                        <td>2 Years</td>
+                        <td><a href="#">Apply</a></td>
+                    </tr>
+                    <tr class="hover-effect">
+                        <td>5</td>
+                        <td>SRKI</td>
+                        <td>Head of Department</td>
+                        <td></td>
+                        <td><a href="#">Apply</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-container" id="">
+            <div class="footer-column">
+                <h4>About VISION</h4>
+                <p>VISION is a government initiative to provide comprehensive information about educational
+                    opportunities across India. It aims to empower students with the tools they need to make informed decisions regarding their education and future.</p>
+            </div>
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Downloads</a></li>
+                    <li><a href="#">Notifications</a></li>
+                    <li><a href="#">Guidelines</a></li>
+                    <li><a href="#">Webinars</a></li>
+                    <li><a href="#">Case Studies</a></li>
+                </ul>
+            </div>
+           
+            <div class="footer-column">
+                <h4>Follow Us</h4>
+                <ul class="social-media">
+                    <li><a href="#" class="social-icon">Facebook</a></li>
+                    <li><a href="#" class="social-icon">Twitter</a></li>
+                    <li><a href="#" class="social-icon">Instagram</a></li>
+                    <li><a href="#" class="social-icon">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 VISION: Virtual Information System for Institutional Opportunities and Navigation. All Rights
+                Reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Disclaimer</a></li>
+                <li><a href="#">Accessibility</a></li>
+                <li><a href="#">Last Updated: March 2025</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>
